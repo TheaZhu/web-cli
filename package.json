@@ -1,0 +1,54 @@
+{
+  "name": "web-cli",
+  "version": "0.0.1",
+  "description": "Command line interface for web application development",
+  "main": "index.js",
+  "bin": {
+    "web": "bin/web.js"
+  },
+  "scripts": {
+    "test": "node ./scripts/test.js"
+  },
+  "files": [
+    "bin",
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheaZhu/web-cli.git"
+  },
+  "keywords": [
+    "web",
+    "cli",
+    "react",
+    "redux",
+    "vue"
+  ],
+  "author": "Thea",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TheaZhu/web-cli/issues"
+  },
+  "homepage": "https://github.com/TheaZhu/web-cli#readme",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "axios": "^0.17.1",
+    "chalk": "^2.3.0",
+    "commander": "^2.14.0",
+    "ejs": "^2.5.7",
+    "execa": "^0.9.0",
+    "globby": "^7.1.1",
+    "inquirer": "^5.1.0",
+    "joi": "^13.2.0",
+    "minimist": "^1.2.0",
+    "ora": "^1.4.0",
+    "prompt": "^1.0.0",
+    "rimraf": "^2.6.2",
+    "semver": "^5.4.1"
+  },
+  "engines": {
+    "node": ">=8"
+  }
+}
